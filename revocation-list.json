@@ -1,0 +1,7 @@
+{
+ “@context”: “https://w3id.org/openbadges/v2”,
+ “id”: “https://dvdmrs09.github.io/pub-docs/revocation-list.json”,
+ “type”: “RevocationList”,
+ “issuer”: “https://dvdmrs09.github.io/pub-docs/dmcst_issuer.json”,
+ “revokedAssertions”: []
+}
