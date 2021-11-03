@@ -1,9 +1,12 @@
 {
+"issuer": { "id": "https://simbachain.github.io/pub-docs/issuer-testnet.json", "url": "https://training.simbachain.com/", "name": "SIMBAChain Inc.", "type": "Profile", "email": "training@simbachain.com",
+
+"@context": [ "https://w3id.org/openbadges/v2", "https://w3id.org/blockcerts/v2", { "displayHtml": { "@id": "schema:description" } } ], "issuedOn": "2020-09-30T17:19:53.481333+00:00", "recipient": { "type": "email", "hashed": false, "identity": "admin@dmcst.onmicrosoft.com" }, "signature": { "type": [ "MerkleProof2017", "Extension" ], "proof": [], "anchors": [ { "type": "ETHData", "chain": "mainnet", "sourceId": "0xf29a749Ff484a7Ad2B4015612D45DFE814dF0e52" } ], "merkleRoot": "44a7db78e1cfde7b1e509940f4270bbda1e4c40295d263e082298cdab9af7f71", "targetHash": "44a7db78e1cfde7b1e509940f4270bbda1e4c40295d263e082298cdab9af7f71" }, "displayHtml": "<div>must be smart</div>", "verification": { "type": [ "MerkleProofVerification2017", "Extension" ], "publicKey": "ecdsa-koblitz-pubkey:0xa508dD875f10C33C52a8abb20E16fc68E981F186" }, "signatureLines": [ { "name": "Clever", "type": [ "SignatureLine", "Extension" ],
  “@context”: [
  “https://w3id.org/openbadges/v2”,
  “https://w3id.org/blockcerts/v2”
  ],
- “id”: “https://raw.github.com/dvdmrs09/pub-docs/main/issuer.json”,
+ “id”: “”,
  “url”: “https://dmcs-t.com/”,
  “name”: “DMCST LLC.”,
  “email”: “admin@dmcs-t.com”,
